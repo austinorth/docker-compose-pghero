@@ -1,9 +1,9 @@
-# docker-compose PgHero
+# Run PgHero with Docker Compose
 
 ## Setup
 ### Install Dependencies
 - [Docker CE](https://docs.docker.com/install/)
-- [docker-compose](https://docs.docker.com/compose/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Configure YAML Files for Your Environment
 You will want to set up the two `.yml` files in this repository to match the Postgres environment that you are wanting to run PgHero against. The bare minimum steps are as follows.
@@ -26,5 +26,5 @@ To shut down the container, use `Ctrl+C` in the terminal that is running the con
 
 ### Source Repos
 - [Docker CE](https://github.com/docker/docker-ce)
-- [docker-compose](https://github.com/docker/compose)
+- [Docker Compose](https://github.com/docker/compose)
 - [PgHero](https://github.com/ankane/pghero)
