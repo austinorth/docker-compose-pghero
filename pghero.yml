@@ -1,0 +1,5 @@
+databases:
+  database1:
+    url: postgres://username:password@hostaddress/database1
+  database2:
+    url: postgres://username:password@hostaddress/database2

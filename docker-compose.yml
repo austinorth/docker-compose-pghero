@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  pghero:
+    image: ankane/pghero
+    container_name: pghero
+    network_mode: host
+    ports:
+      - 8080:8080
+    environment:
+      DATABASE_URL: postgres://user:password@hostaddress:5432
+    volumes:
+      - /home/username/pghero/pghero.yml:/app/config/pghero.yml
